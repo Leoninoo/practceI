@@ -26,7 +26,7 @@ public class LoginServlet extends HttpServlet {
         //Данные для подключения к бд
         String url = "jdbc:mysql://localhost:3306/practice?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
         String userName = "root";
-        String password = "524710kleo";
+        String password = "root";
 
         try {
             //подключаем драйвер для mySQL
